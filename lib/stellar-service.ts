@@ -1,5 +1,7 @@
-import freighterApi from "@stellar/freighter-api";
+import * as freighterApiModule from "@stellar/freighter-api";
 
+// Handle both standard ESM and potential default export wrappers
+const freighterApi = (freighterApiModule as any).default || freighterApiModule;
 const { isConnected, getAddress, getNetwork, isAllowed, setAllowed } = freighterApi;
 
 export type WalletType = "freighter" | "albedo" | "xbull" | "ledger" | "lobstr" | "rabet" | "hana"
