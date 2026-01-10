@@ -1,30 +1,75 @@
-# Stellar wallet integration (2)
+# Nexus-Shield: AI-Driven Cross-Border Trade & Compliance Engine
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+## Project Overview
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/sylvia-baricks-projects/v0-stellar-wallet-integration)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/arKTnGvW6pL)
+Nexus-Shield is a next-generation Contract Lifecycle Management (CLM) platform designed to bridge the "Trust Gap" in international trade. Developed for the TechTriad Hackathon, the platform addresses the fragmentation and risks associated with manual cross-border contracting by providing a unified, secure, and intelligent workbench.
 
-## Overview
+By integrating modern web workflows, AI-driven compliance sentinel, and the Stellar blockchain, Nexus-Shield ensures that every contract is transparent, tamper-proof, and audit-ready.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
-## Deployment
+## Live Links
+Web Workbench: https://stellar-one-taupe.vercel.app/
 
-Your project is live at:
+GitHub Repository: https://github.com/sylvia-barick/stellar.git
 
-**[https://vercel.com/sylvia-baricks-projects/v0-stellar-wallet-integration](https://vercel.com/sylvia-baricks-projects/v0-stellar-wallet-integration)**
 
-## Build your app
+## Core Integrated Themes
+### 1. Contract Management Workbench (Web UI/UX)
+Designed using Next.js, the workbench serves as a modern command center for managing contracts throughout their lifecycle:
 
-Continue building your app on:
 
-**[https://v0.app/chat/arKTnGvW6pL](https://v0.app/chat/arKTnGvW6pL)**
+   **● Interactive Dashboard:** View key metrics, status updates, and alerts surfaced from AI and blockchain layers.
+
+   **● Version Management:** Track every edit and version change with a clear visual history.
+
+   **● Role-Based Workflow:** Secure approval flows for creators, reviewers, and approvers.
+
+### 2. AI-Assisted Contract Intelligence
+A proactive AI engine that assists users in understanding and managing complex legal obligations:
+
+
+   **● Risk Sentinel:** Automatically flags unusual or missing clauses and provides explanations for potential cross-border legal risks.
+
+
+   **● Clause Extraction:** Structures important data such as payment terms, liability, and termination conditions.
+
+
+   **● Contextual Q&A:** A grounded assistant that provides instant answers based strictly on the content of the uploaded contract.
+
+
+### 3. Blockchain-Backed Trust & Auditability
+Utilizes the Stellar Blockchain as a decentralized trust layer to provide immutable proof of contract integrity:
+
+
+   **● Document Anchoring:** Stores cryptographic hashes of every contract version on the Stellar ledger, enabling instant verification that a document has not been altered.
+
+
+   **● Immutable Audit Trail:** Provides a verifiable, time-stamped history of all approvals and signatures recorded on-chain.
+
+
+   **● High-Speed Finality:** Leverages Stellar’s efficiency to provide cost-effective and near-instant verification for enterprise scaling.
+
+
+## Technology Stack
+
+   **• Frontend:** Next.js, Tailwind CSS, Framer Motion.
+
+
+   **•Intelligence:** LLM-based RAG (Retrieval-Augmented Generation) for grounded analysis.
+
+
+   **•Trust Layer:** Stellar Network, Soroban Smart Contracts, Stellar SDK.
+
 
 ## How It Works
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+   **•Drafting:** Users create or upload contracts into the high-fidelity workbench.
+
+
+   **•Analysis:** The AI sentinel extracts clauses and highlights jurisdictional risks in real-time.
+
+
+   **•Verification:** The current state of the document is hashed and anchored to the Stellar Blockchain to create a "Trust Lock".
+
+
+   **•Execution:** Parties sign milestones recorded immutably on-chain, creating a forensic audit trail for global compliance.
