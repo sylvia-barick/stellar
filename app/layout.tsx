@@ -23,7 +23,7 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   title: "Nexus-Shield | Cross-Border Contract Management",
   description: "Secure, intelligent, and borderless contract lifecycle management powered by AI and blockchain",
-  generator: "v0.app",
+  generator: "syldebo",
   icons: {
     icon: [
       {
